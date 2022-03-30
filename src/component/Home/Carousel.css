@@ -1,0 +1,96 @@
+body{
+    overflow-x: hidden;
+}
+.image{
+    height: 700px;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 200px;
+    right: 15%;
+    text-align: start;
+    max-width: 600px;
+    right: auto;
+    padding:5px;
+}
+.carousel-caption h1{
+    font-size: 70px;
+}
+.circle li{
+    width: 20px;
+  height: 20px;
+  border-radius: 100%;
+border: 2px solid white;
+}
+
+/* middle section css */
+.box{
+    padding: 20px 0px;
+    cursor: pointer;
+    border-radius: 2rem;
+
+}
+.box i{
+    font-size: 50px;
+}
+.box:hover{
+    color: yellow;
+}
+.light{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(75deg, #fb2f13 20%, #f85e00 60%, #eb8e02 100%);
+    
+}
+.img-fluid{
+    width: 400px;
+    height: 300px;
+}
+/* icon font size */
+.fonticonSize{
+    font-size: 15px;
+    margin: 0px 0px 0px 5px;
+}
+/* background image for middle section */
+
+.section{
+    background-image: url('./images/frame.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+}
+
+
+
+
+/* font size for headings */
+.headingFont{
+    font-size: 3.25rem;
+}
+/* font size for paragraph */
+.paraFont{
+    font-size: 1.2rem;
+}
+/* list for pointing as cursor */
+.target p{
+    padding: 2rem;
+}
+.target p:hover{
+    cursor: pointer;
+    color: white;
+}
+/* background image for middle section */
+.section32{
+    background-image: url('./images/Satellite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+@media  only screen and (max-width:918px) {
+    .section32{
+        height: 130vh;
+    }
+    
+}

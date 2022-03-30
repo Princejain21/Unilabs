@@ -1,0 +1,38 @@
+/* color for nav */
+.sticky-top{
+    background-color: black;
+}
+
+.font{
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:orangered;
+}
+.navbar-nav li{
+    padding: 0rem 2rem;
+}
+.dropdown-menu{
+    background-color: #0e0c0cb7 !important;
+}
+.dropdown-item{
+    background-color: #0e0c0cb7 !important;
+    color: white !important;
+}
+.dropdown-item:hover{
+    color: orangered   !important;
+}
+.prince a{
+    color: white !important;
+}
+
+.prince a:hover{
+    color: orangered !important;
+}
+.dropdown-toggle:hover{
+    color: orangered !important;
+
+}
+
+

@@ -1,0 +1,41 @@
+/* font-size for haading and paragraph */
+.headingFont{
+    font-size: 3rem;
+}
+.paraFont{
+    font-size: 1.2rem;
+}
+/* background color */
+.rowe{
+    background-color: #09090a;
+}
+.light{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(75deg, #fb2f13 20%, #f85e00 60%, #eb8e02 100%);
+}
+/*card background color  */
+.card{
+    background-color:#18191a ;
+}
+/* icon size in card */
+.iconSize{
+    font-size: 5rem;
+}
+/* css for link */
+.link{
+    text-decoration: none;
+    color: gray;
+}
+.link:hover{
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+}
+.iconSize:hover{
+    cursor: pointer;
+    color: orangered;
+
+    
+    
+}
