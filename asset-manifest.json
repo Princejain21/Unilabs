@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Unilabs/static/css/main.58700dbe.css",
+    "main.js": "/Unilabs/static/js/main.6f26ad91.js",
+    "static/media/city-network.jpg": "/Unilabs/static/media/city-network.22fa4f638cfecb6c580a.jpg",
+    "static/media/Satellite.jpg": "/Unilabs/static/media/Satellite.3a55d23f16aeabf130d1.jpg",
+    "static/media/frame.jpg": "/Unilabs/static/media/frame.8916adb81dcd97aff693.jpg",
+    "index.html": "/Unilabs/index.html",
+    "main.58700dbe.css.map": "/Unilabs/static/css/main.58700dbe.css.map",
+    "main.6f26ad91.js.map": "/Unilabs/static/js/main.6f26ad91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58700dbe.css",
+    "static/js/main.6f26ad91.js"
+  ]
+}
