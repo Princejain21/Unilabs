@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 import Carousel from './Carousel'
 import './Carousel.css'
 import Section3 from './Section3'
@@ -9,7 +10,7 @@ import Section32 from './Section32'
 export default function Middle() {
     return (
         <>
-
+        <Navbar/>
         <Carousel/>
             <div className="row text-white justify-content-around p-5" style={{ backgroundColor: '#09090a' }}>
                 <div className="col-md-4 py-5">
