@@ -1,6 +1,5 @@
 import React from "react";
 import Middle from "./component/Home/Middle";
-import Navbar from "./component/Navbar/Navbar";
 import './App.css'
 import {
   BrowserRouter as Router,
@@ -20,7 +19,6 @@ function App() {
           <Route exact path='/About'>
             <About />
           </Route>
-          
         </Switch>
       </Router>
 

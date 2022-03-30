@@ -25,7 +25,7 @@ export default function Navbar() {
                             </div>
                         </li>
                         <li className="nav-item prince">
-                            <Link className="nav-link  prince" to="/">Contact Us</Link>
+                            <Link className="nav-link  prince" to="/About">Contact Us</Link>
                         </li>
                         <li className="nav-item prince">
                             <Link className="nav-link  prince" to="/">Careers</Link>

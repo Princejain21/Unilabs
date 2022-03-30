@@ -5,7 +5,6 @@ import './About.css'
 import Card from './Card'
 import Section33 from '../Home/Section33'
 import Navbar from '../Navbar/Navbar'
-
 export default function About() {
   return (
     <>
