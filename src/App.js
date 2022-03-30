@@ -7,13 +7,15 @@ import {
   Route,
 } from "react-router-dom";
 import About from "./component/About/About";
+import Navbar from "./component/Navbar/Navbar";
 
 function App() {
   return (
     <>
       <Router>
+        <Navbar/>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/Unilabs'>
             <Middle />
           </Route>
           <Route exact path='/About'>

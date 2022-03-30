@@ -19,16 +19,16 @@ export default function Navbar() {
                             </a>
                             <div className="dropdown-menu itemNav" aria-labelledby="navbarDropdown">
                                 <Link className="dropdown-item" to="/About">Action</Link>
-                                <Link className="dropdown-item "to="/">Another action</Link>
+                                <Link className="dropdown-item "to="/Unilabs">Another action</Link>
                                 <Link className="dropdown-item "to="/About">Something else here</Link>
-                                <Link className="dropdown-item "to="/">Something else here</Link>
+                                <Link className="dropdown-item "to="/Unilabs">Something else here</Link>
                             </div>
                         </li>
                         <li className="nav-item prince">
                             <Link className="nav-link  prince" to="/About">Contact Us</Link>
                         </li>
                         <li className="nav-item prince">
-                            <Link className="nav-link  prince" to="/">Careers</Link>
+                            <Link className="nav-link  prince" to="/Unilabs">Careers</Link>
                         </li>
                         <li className="nav-item prince">
                             <Link className="nav-link  prince" to="/About">About Uniolabs</Link>
