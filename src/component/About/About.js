@@ -4,11 +4,26 @@ import Footer from '../Footer/Footer'
 import './About.css'
 import Card from './Card'
 import Section33 from '../Home/Section33'
+import Section34 from '../Home/Section34'
 export default function About() {
+  const prince={
+    h1:'Our Partners',
+    c1:'Company 1 ',
+    c2:'Company 2',
+    c3:'Company 3',
+    c4:'Company 4',
+    c5:'Company 5',
+    c6:'Company 6',
+    c7:'Company 7',
+    c8:'Company 8',
+    c9:'Company 9',
+  }
+
+
   return (
     <>
       <Carousel />
-      <div className="row rowe justify-content-around text-white ">
+      <div className="row rowe justify-content-around text-white  ">
 
         <div className="col-11 py-3 "></div>
         <div className="w-100"></div>
@@ -40,7 +55,15 @@ export default function About() {
       <div className='w-100'></div>
       <Card head='Internet of things' animation='Left'  fixedSize='pt-5' padding='py-5' para="The global pandemic pushed the focus on Internet of Things (IoT) technologies from proof-of-concept to operational necessity. For enterprises to be flexible and scalable it is need of the hour to make decisions that are data driven. With data-driven enterprises and ingenious services, we assure you reliable and flexible solutions which could help you to merge within the industry seamlessly." />
       <Card head='Product R&D' padding='py-5' animation='Left'  para="We at Uniolabs work to ensure timely solutions for your product development needs. With wide range of services that vary from layout, project administration to execution, analytics, training, and assistance we make sure to cover all your product development needs. Our dedication towards bringing you the perfect solutions has made us amongst the most trusted companies in the industry, we apply proven best techniques by allowing you to expand your perception while overseeing the stakes." />
+      <Section34 data={prince}/>
+
+      <div className='col-8 mx-auto bg-primary text-white p-5 my-5 mx-3 '>
+        <h1>Let's help you navigate <br/> your next</h1><br/>
+        <button className='btn btn-outline-danger text-white my-3'>Contact Us &#8594;</button>
       </div>
+
+      </div>
+
       <Footer/>
 
     </>

@@ -1,8 +1,22 @@
 import React from 'react'
 import './Carousel.css'
 import Section33 from './Section33'
+import Section34 from './Section34'
 
 export default function Section31() {
+    const prince1={
+        h1:'Latest Projects',
+        c1:'Orange Power ',
+        c2:'Home Automation system',
+        c3:'Utrac',
+        c4:'Temperature control',
+        c5:'Temperature control',
+        c6:'AC Monitoring',
+        c7:'Smart Farm Monitor',
+        c8:'Energy Monitering Device',
+        c9:'AQM Device',
+      }
+
     return (
         <>
             <div className="row justify-content-center text-center text-white " style={{ backgroundColor: 'black' }}>
@@ -11,37 +25,7 @@ export default function Section31() {
                     <p className='paraFont'>We are a leading next-generation digital services and electronic startup Company</p>
                 </div>
                 <Section33 />
-                <div className="col-12 text-center py-5"><h1 className='headingFont animated fadeInRight'>Latest Project</h1></div>
-
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>Orange Power</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>Home Automation system
-                        Utrac</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>Utrac</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>Temperature control</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>Temperature control</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>AC Monitoring</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>Smart Farm Monitor</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>
-                        Energy Monitering Device</p>
-                </div>
-                <div className="col col-md-4 col-sm-6 text-secondary target">
-                    <p className="paraFont animated fadeInUp" style={{ animationDelay: "1s" }}>AQM Device</p>
-                </div>
+               <Section34 data={prince1}/>
             </div>
 
         </>
