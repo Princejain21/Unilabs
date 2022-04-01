@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route exact path='/Uniolabs'>
+          <Route exact path='/Unilabs'>
             <Middle />
           </Route>
           <Route exact path='/About'>
